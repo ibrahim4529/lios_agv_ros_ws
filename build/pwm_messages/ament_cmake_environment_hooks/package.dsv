@@ -1,0 +1,4 @@
+source;share/pwm_messages/local_setup.bash
+source;share/pwm_messages/local_setup.dsv
+source;share/pwm_messages/local_setup.sh
+source;share/pwm_messages/local_setup.zsh

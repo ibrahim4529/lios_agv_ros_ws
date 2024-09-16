@@ -1,0 +1,253 @@
+[0.149s] DEBUG:colcon:Command line arguments: ['/home/ubuntu/.platformio/penv/bin/colcon', 'build']
+[0.149s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f1d860fca90>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f1d862618d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f1d862618d0>>)
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.251s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/ros_ws'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/lios_agv) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/lios_agv) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/lios_agv) by extension 'ignore_ament_install'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/lios_agv) by extensions ['colcon_pkg']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/lios_agv) by extension 'colcon_pkg'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/lios_agv) by extensions ['colcon_meta']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/lios_agv) by extension 'colcon_meta'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/lios_agv) by extensions ['ros']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/lios_agv) by extension 'ros'
+[0.278s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lios_agv' with type 'ros.ament_python' and name 'lios_agv'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/pwm_messages) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/pwm_messages) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/pwm_messages) by extension 'ignore_ament_install'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/pwm_messages) by extensions ['colcon_pkg']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/pwm_messages) by extension 'colcon_pkg'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/pwm_messages) by extensions ['colcon_meta']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/pwm_messages) by extension 'colcon_meta'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/pwm_messages) by extensions ['ros']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/pwm_messages) by extension 'ros'
+[0.279s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pwm_messages' with type 'ros.ament_cmake' and name 'pwm_messages'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ignore'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ignore_ament_install'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['colcon_pkg']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'colcon_pkg'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['colcon_meta']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'colcon_meta'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['ros']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ros'
+[0.281s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_pubsub' with type 'ros.ament_python' and name 'py_pubsub'
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'lios_agv' build argument 'cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'lios_agv' build argument 'cmake_target' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'lios_agv' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'lios_agv' build argument 'cmake_clean_cache' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'lios_agv' build argument 'cmake_clean_first' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'lios_agv' build argument 'cmake_force_configure' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'lios_agv' build argument 'ament_cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'lios_agv' build argument 'catkin_cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'lios_agv' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.299s] DEBUG:colcon.colcon_core.verb:Building package 'lios_agv' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros_ws/build/lios_agv', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros_ws/install/lios_agv', 'merge_install': False, 'path': '/home/ubuntu/ros_ws/src/lios_agv', 'symlink_install': False, 'test_result_base': None}
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'pwm_messages' build argument 'cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'pwm_messages' build argument 'cmake_target' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'pwm_messages' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'pwm_messages' build argument 'cmake_clean_cache' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'pwm_messages' build argument 'cmake_clean_first' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'pwm_messages' build argument 'cmake_force_configure' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'pwm_messages' build argument 'ament_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'pwm_messages' build argument 'catkin_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'pwm_messages' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.300s] DEBUG:colcon.colcon_core.verb:Building package 'pwm_messages' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros_ws/build/pwm_messages', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros_ws/install/pwm_messages', 'merge_install': False, 'path': '/home/ubuntu/ros_ws/src/pwm_messages', 'symlink_install': False, 'test_result_base': None}
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_target' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.301s] DEBUG:colcon.colcon_core.verb:Building package 'py_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros_ws/build/py_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros_ws/install/py_pubsub', 'merge_install': False, 'path': '/home/ubuntu/ros_ws/src/py_pubsub', 'symlink_install': False, 'test_result_base': None}
+[0.301s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.302s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.303s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/ros_ws/src/lios_agv' with build type 'ament_python'
+[0.304s] Level 1:colcon.colcon_core.shell:create_environment_hook('lios_agv', 'ament_prefix_path')
+[0.306s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.306s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros_ws/install/lios_agv/share/lios_agv/hook/ament_prefix_path.ps1'
+[0.307s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros_ws/install/lios_agv/share/lios_agv/hook/ament_prefix_path.dsv'
+[0.308s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros_ws/install/lios_agv/share/lios_agv/hook/ament_prefix_path.sh'
+[0.309s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.309s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.314s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ros_ws/src/pwm_messages' with build type 'ament_cmake'
+[0.314s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ros_ws/src/pwm_messages'
+[0.315s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.315s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.319s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/ros_ws/src/py_pubsub' with build type 'ament_python'
+[0.319s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pubsub', 'ament_prefix_path')
+[0.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.ps1'
+[0.321s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.dsv'
+[0.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.sh'
+[0.322s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.322s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.570s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/ros_ws/src/lios_agv'
+[0.570s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.570s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.581s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros_ws/build/pwm_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros_ws/install/lios_agv:/home/ubuntu/ros_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros_ws/build/pwm_messages -- -j4 -l4
+[1.036s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/ros_ws/src/py_pubsub'
+[1.037s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.037s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.181s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros_ws/build/pwm_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros_ws/install/lios_agv:/home/ubuntu/ros_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros_ws/build/pwm_messages -- -j4 -l4
+[1.290s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros_ws/build/pwm_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros_ws/install/lios_agv:/home/ubuntu/ros_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros_ws/build/pwm_messages
+[1.361s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pwm_messages)
+[1.363s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/install/pwm_messages' for CMake module files
+[1.364s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/install/pwm_messages' for CMake config files
+[1.364s] Level 1:colcon.colcon_core.shell:create_environment_hook('pwm_messages', 'cmake_prefix_path')
+[1.365s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros_ws/install/pwm_messages/share/pwm_messages/hook/cmake_prefix_path.ps1'
+[1.365s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros_ws/install/pwm_messages/share/pwm_messages/hook/cmake_prefix_path.dsv'
+[1.365s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros_ws/build/pwm_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros_ws/install/lios_agv:/home/ubuntu/ros_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros_ws/build/pwm_messages
+[1.366s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros_ws/install/pwm_messages/share/pwm_messages/hook/cmake_prefix_path.sh'
+[1.366s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/install/pwm_messages/lib'
+[1.367s] Level 1:colcon.colcon_core.shell:create_environment_hook('pwm_messages', 'ld_library_path_lib')
+[1.367s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros_ws/install/pwm_messages/share/pwm_messages/hook/ld_library_path_lib.ps1'
+[1.367s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros_ws/install/pwm_messages/share/pwm_messages/hook/ld_library_path_lib.dsv'
+[1.367s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros_ws/install/pwm_messages/share/pwm_messages/hook/ld_library_path_lib.sh'
+[1.368s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/install/pwm_messages/bin'
+[1.368s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/install/pwm_messages/lib/pkgconfig/pwm_messages.pc'
+[1.368s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/install/pwm_messages/lib/python3.10/site-packages'
+[1.368s] Level 1:colcon.colcon_core.shell:create_environment_hook('pwm_messages', 'pythonpath')
+[1.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros_ws/install/pwm_messages/share/pwm_messages/hook/pythonpath.ps1'
+[1.369s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros_ws/install/pwm_messages/share/pwm_messages/hook/pythonpath.dsv'
+[1.369s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros_ws/install/pwm_messages/share/pwm_messages/hook/pythonpath.sh'
+[1.370s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/install/pwm_messages/bin'
+[1.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros_ws/install/pwm_messages/share/pwm_messages/package.ps1'
+[1.371s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros_ws/install/pwm_messages/share/pwm_messages/package.dsv'
+[1.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros_ws/install/pwm_messages/share/pwm_messages/package.sh'
+[1.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros_ws/install/pwm_messages/share/pwm_messages/package.bash'
+[1.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros_ws/install/pwm_messages/share/pwm_messages/package.zsh'
+[1.373s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros_ws/install/pwm_messages/share/colcon-core/packages/pwm_messages)
+[1.443s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pwm_messages)
+[1.443s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/install/pwm_messages' for CMake module files
+[1.444s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/install/pwm_messages' for CMake config files
+[1.445s] Level 1:colcon.colcon_core.shell:create_environment_hook('pwm_messages', 'cmake_prefix_path')
+[1.445s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros_ws/install/pwm_messages/share/pwm_messages/hook/cmake_prefix_path.ps1'
+[1.446s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros_ws/install/pwm_messages/share/pwm_messages/hook/cmake_prefix_path.dsv'
+[1.447s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros_ws/install/pwm_messages/share/pwm_messages/hook/cmake_prefix_path.sh'
+[1.447s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/install/pwm_messages/lib'
+[1.447s] Level 1:colcon.colcon_core.shell:create_environment_hook('pwm_messages', 'ld_library_path_lib')
+[1.448s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros_ws/install/pwm_messages/share/pwm_messages/hook/ld_library_path_lib.ps1'
+[1.448s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros_ws/install/pwm_messages/share/pwm_messages/hook/ld_library_path_lib.dsv'
+[1.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros_ws/install/pwm_messages/share/pwm_messages/hook/ld_library_path_lib.sh'
+[1.449s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/install/pwm_messages/bin'
+[1.449s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/install/pwm_messages/lib/pkgconfig/pwm_messages.pc'
+[1.450s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/install/pwm_messages/lib/python3.10/site-packages'
+[1.450s] Level 1:colcon.colcon_core.shell:create_environment_hook('pwm_messages', 'pythonpath')
+[1.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros_ws/install/pwm_messages/share/pwm_messages/hook/pythonpath.ps1'
+[1.451s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros_ws/install/pwm_messages/share/pwm_messages/hook/pythonpath.dsv'
+[1.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros_ws/install/pwm_messages/share/pwm_messages/hook/pythonpath.sh'
+[1.452s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/install/pwm_messages/bin'
+[1.452s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros_ws/install/pwm_messages/share/pwm_messages/package.ps1'
+[1.453s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros_ws/install/pwm_messages/share/pwm_messages/package.dsv'
+[1.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros_ws/install/pwm_messages/share/pwm_messages/package.sh'
+[1.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros_ws/install/pwm_messages/share/pwm_messages/package.bash'
+[1.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros_ws/install/pwm_messages/share/pwm_messages/package.zsh'
+[1.456s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros_ws/install/pwm_messages/share/colcon-core/packages/pwm_messages)
+[1.477s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros_ws/src/lios_agv': PYTHONPATH=/home/ubuntu/ros_ws/build/lios_agv/prefix_override:/home/ubuntu/.platformio/penv/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros_ws/install/lios_agv/lib/python3.10/site-packages:${PYTHONPATH} /home/ubuntu/.platformio/penv/bin/python -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lios_agv build --build-base /home/ubuntu/ros_ws/build/lios_agv/build install --record /home/ubuntu/ros_ws/build/lios_agv/install.log --single-version-externally-managed install_data
+[1.569s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros_ws/src/py_pubsub': PYTHONPATH=/home/ubuntu/ros_ws/build/py_pubsub/prefix_override:/home/ubuntu/.platformio/penv/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /home/ubuntu/.platformio/penv/bin/python -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/ubuntu/ros_ws/build/py_pubsub/build install --record /home/ubuntu/ros_ws/build/py_pubsub/install.log --single-version-externally-managed install_data
+[1.799s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/install/lios_agv' for CMake module files
+[1.799s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/install/lios_agv' for CMake config files
+[1.800s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros_ws/src/lios_agv' returned '0': PYTHONPATH=/home/ubuntu/ros_ws/build/lios_agv/prefix_override:/home/ubuntu/.platformio/penv/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros_ws/install/lios_agv/lib/python3.10/site-packages:${PYTHONPATH} /home/ubuntu/.platformio/penv/bin/python -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lios_agv build --build-base /home/ubuntu/ros_ws/build/lios_agv/build install --record /home/ubuntu/ros_ws/build/lios_agv/install.log --single-version-externally-managed install_data
+[1.801s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/install/lios_agv/lib'
+[1.801s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/install/lios_agv/bin'
+[1.801s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/install/lios_agv/lib/pkgconfig/lios_agv.pc'
+[1.802s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/install/lios_agv/lib/python3.10/site-packages'
+[1.802s] Level 1:colcon.colcon_core.shell:create_environment_hook('lios_agv', 'pythonpath')
+[1.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros_ws/install/lios_agv/share/lios_agv/hook/pythonpath.ps1'
+[1.803s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros_ws/install/lios_agv/share/lios_agv/hook/pythonpath.dsv'
+[1.804s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros_ws/install/lios_agv/share/lios_agv/hook/pythonpath.sh'
+[1.806s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/install/lios_agv/bin'
+[1.806s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lios_agv)
+[1.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros_ws/install/lios_agv/share/lios_agv/package.ps1'
+[1.807s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros_ws/install/lios_agv/share/lios_agv/package.dsv'
+[1.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros_ws/install/lios_agv/share/lios_agv/package.sh'
+[1.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros_ws/install/lios_agv/share/lios_agv/package.bash'
+[1.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros_ws/install/lios_agv/share/lios_agv/package.zsh'
+[1.808s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros_ws/install/lios_agv/share/colcon-core/packages/lios_agv)
+[1.866s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/install/py_pubsub' for CMake module files
+[1.867s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/ubuntu/ros_ws/build/py_pubsub/prefix_override:/home/ubuntu/.platformio/penv/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /home/ubuntu/.platformio/penv/bin/python -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/ubuntu/ros_ws/build/py_pubsub/build install --record /home/ubuntu/ros_ws/build/py_pubsub/install.log --single-version-externally-managed install_data
+[1.867s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/install/py_pubsub' for CMake config files
+[1.868s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/install/py_pubsub/lib'
+[1.868s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/install/py_pubsub/bin'
+[1.868s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/install/py_pubsub/lib/pkgconfig/py_pubsub.pc'
+[1.868s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/install/py_pubsub/lib/python3.10/site-packages'
+[1.868s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pubsub', 'pythonpath')
+[1.869s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.ps1'
+[1.869s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.dsv'
+[1.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.sh'
+[1.870s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/install/py_pubsub/bin'
+[1.870s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_pubsub)
+[1.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros_ws/install/py_pubsub/share/py_pubsub/package.ps1'
+[1.871s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros_ws/install/py_pubsub/share/py_pubsub/package.dsv'
+[1.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros_ws/install/py_pubsub/share/py_pubsub/package.sh'
+[1.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros_ws/install/py_pubsub/share/py_pubsub/package.bash'
+[1.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros_ws/install/py_pubsub/share/py_pubsub/package.zsh'
+[1.873s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros_ws/install/py_pubsub/share/colcon-core/packages/py_pubsub)
+[1.874s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.874s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.874s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.874s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.876s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify2': 'notify2' not found
+[1.876s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.876s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.877s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.877s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.877s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros_ws/install/local_setup.ps1'
+[1.878s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/ros_ws/install/_local_setup_util_ps1.py'
+[1.880s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros_ws/install/setup.ps1'
+[1.881s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros_ws/install/local_setup.sh'
+[1.882s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/ros_ws/install/_local_setup_util_sh.py'
+[1.883s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros_ws/install/setup.sh'
+[1.884s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros_ws/install/local_setup.bash'
+[1.885s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros_ws/install/setup.bash'
+[1.886s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros_ws/install/local_setup.zsh'
+[1.886s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros_ws/install/setup.zsh'

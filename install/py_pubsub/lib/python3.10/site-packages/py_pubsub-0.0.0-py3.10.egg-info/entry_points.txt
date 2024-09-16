@@ -1,0 +1,4 @@
+[console_scripts]
+talker = py_pubsub:main
+talkerint = py_pubsub.talkerint:main
+

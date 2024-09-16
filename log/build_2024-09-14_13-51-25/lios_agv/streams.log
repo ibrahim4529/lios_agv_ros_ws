@@ -1,0 +1,26 @@
+[0.894s] Invoking command in '/home/ubuntu/ros_ws/src/lios_agv': PYTHONPATH=/home/ubuntu/ros_ws/build/lios_agv/prefix_override:/home/ubuntu/.platformio/penv/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros_ws/install/lios_agv/lib/python3.10/site-packages:${PYTHONPATH} /home/ubuntu/.platformio/penv/bin/python -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lios_agv build --build-base /home/ubuntu/ros_ws/build/lios_agv/build install --record /home/ubuntu/ros_ws/build/lios_agv/install.log --single-version-externally-managed install_data
+[1.119s] running egg_info
+[1.120s] writing ../../build/lios_agv/lios_agv.egg-info/PKG-INFO
+[1.120s] writing dependency_links to ../../build/lios_agv/lios_agv.egg-info/dependency_links.txt
+[1.120s] writing entry points to ../../build/lios_agv/lios_agv.egg-info/entry_points.txt
+[1.120s] writing requirements to ../../build/lios_agv/lios_agv.egg-info/requires.txt
+[1.121s] writing top-level names to ../../build/lios_agv/lios_agv.egg-info/top_level.txt
+[1.123s] reading manifest file '../../build/lios_agv/lios_agv.egg-info/SOURCES.txt'
+[1.123s] adding license file 'LICENSE'
+[1.124s] writing manifest file '../../build/lios_agv/lios_agv.egg-info/SOURCES.txt'
+[1.124s] running build
+[1.124s] running build_py
+[1.124s] copying lios_agv/main.py -> /home/ubuntu/ros_ws/build/lios_agv/build/lib/lios_agv
+[1.125s] running install
+[1.125s] running install_lib
+[1.126s] copying /home/ubuntu/ros_ws/build/lios_agv/build/lib/lios_agv/main.py -> /home/ubuntu/ros_ws/install/lios_agv/lib/python3.10/site-packages/lios_agv
+[1.127s] byte-compiling /home/ubuntu/ros_ws/install/lios_agv/lib/python3.10/site-packages/lios_agv/main.py to main.cpython-310.pyc
+[1.128s] running install_data
+[1.128s] running install_egg_info
+[1.131s] removing '/home/ubuntu/ros_ws/install/lios_agv/lib/python3.10/site-packages/lios_agv-0.0.0-py3.10.egg-info' (and everything under it)
+[1.131s] Copying ../../build/lios_agv/lios_agv.egg-info to /home/ubuntu/ros_ws/install/lios_agv/lib/python3.10/site-packages/lios_agv-0.0.0-py3.10.egg-info
+[1.132s] running install_scripts
+[1.157s] Installing joypy script to /home/ubuntu/ros_ws/install/lios_agv/lib/lios_agv
+[1.157s] Installing joystick script to /home/ubuntu/ros_ws/install/lios_agv/lib/lios_agv
+[1.157s] writing list of installed files to '/home/ubuntu/ros_ws/build/lios_agv/install.log'
+[1.194s] Invoked command in '/home/ubuntu/ros_ws/src/lios_agv' returned '0': PYTHONPATH=/home/ubuntu/ros_ws/build/lios_agv/prefix_override:/home/ubuntu/.platformio/penv/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros_ws/install/lios_agv/lib/python3.10/site-packages:${PYTHONPATH} /home/ubuntu/.platformio/penv/bin/python -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lios_agv build --build-base /home/ubuntu/ros_ws/build/lios_agv/build install --record /home/ubuntu/ros_ws/build/lios_agv/install.log --single-version-externally-managed install_data

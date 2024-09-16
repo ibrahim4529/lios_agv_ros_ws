@@ -1,0 +1,4 @@
+Invoking command in '/home/ubuntu/ros_ws/build/pwm_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros_ws/build/pwm_messages -- -j4 -l4
+Invoked command in '/home/ubuntu/ros_ws/build/pwm_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros_ws/build/pwm_messages -- -j4 -l4
+Invoking command in '/home/ubuntu/ros_ws/build/pwm_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros_ws/build/pwm_messages
+Invoked command in '/home/ubuntu/ros_ws/build/pwm_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros_ws/build/pwm_messages

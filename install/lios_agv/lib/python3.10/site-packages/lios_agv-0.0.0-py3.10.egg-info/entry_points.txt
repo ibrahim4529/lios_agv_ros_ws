@@ -1,0 +1,5 @@
+[console_scripts]
+controller = lios_agv.robot_control:main
+joystick = lios_agv.joystick_control:main
+manual = lios_agv.manual_control:main
+
